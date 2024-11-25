@@ -1,0 +1,35 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.cards__div {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    justify-items: center;
+    align-items: stretch;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
+.restart__button {
+    cursor: pointer;
+    font-weight: 600;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: rgb(5, 65, 65);
+    padding: 10px;
+    color: white;
+    transition: 0.3s ease all;
+    border: none;
+    width: 25%;
+    height: 40px;
+    display: flex;
+    margin-left: 37.5%;
+    justify-content: center;
+
+    &:hover {
+        background-color: rgb(32, 85, 85);
+    }
+}

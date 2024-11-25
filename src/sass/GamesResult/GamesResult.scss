@@ -1,0 +1,28 @@
+h1 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.table {
+    width: 90%;
+    margin-bottom: 20px;
+    border: 1px solid #dddddd;
+    border-collapse: collapse;
+}
+.table th {
+    font-weight: bold;
+    padding: 5px;
+    background: #efefef;
+    border: 1px solid #dddddd;
+}
+.table td {
+    border: 1px solid #dddddd;
+    padding: 5px;
+}
+
+.table p {
+    text-align: center;
+}
